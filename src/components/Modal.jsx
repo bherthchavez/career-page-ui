@@ -22,10 +22,10 @@ function Modal({ isOpen, onClose,  children }) {
         >
           {children}
 
-          <div className="p-5 flex justify-between">
+          <div className="p-2 sm:p-5 flex justify-between text-xs sm:text-base">
             <div 
             onClick={onClose}
-            className="cursor-pointer flex justify-center items-center gap-2 text-sm p-2 text-[#30A8CE]">
+            className="cursor-pointer flex justify-center items-center sm:gap-2 sm:text-sm p-2 text-[#30A8CE]">
               View full description
               <span>
                 <BiChevronDown size={20} />

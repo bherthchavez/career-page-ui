@@ -29,8 +29,8 @@ const Careers = () => {
                 isOpen={openModal}
                 onClose={handleModalClose}
             >
-                <div className='flex justify-between items-center p-5  bg-[#DEF7FF] font-bold '>
-                    <p>
+                <div className='flex justify-between items-center p-2 sm:p-5  bg-[#DEF7FF] font-bold '>
+                    <p >
                         {jobPosition}
                     </p>
                     <div
@@ -39,7 +39,7 @@ const Careers = () => {
                         <MdClose size={20} />
                     </div>
                 </div>
-                <div className="flex justify-between gap-3 bg-white px-5 py-10 text-left">
+                <div className="flex flex-col sm:flex-row justify-between gap-3 bg-white px-5 py-5 sm:py-10 text-left text-sm sm:text-base">
                     <div className='flex flex-col gap-5'>
                         <label
                             htmlFor="fullName"
@@ -99,8 +99,8 @@ const Careers = () => {
                 </div>
             </Modal>
 
-            <div className="px-60 mb-20 flex flex-col gap-5">
-                <div className="flex gap-4">
+            <div className="px-5 sm:px-60 mb-20 flex flex-col gap-5">
+                <div className="flex flex-col sm:flex-row pt-5 sm:pt-0 gap-4">
                     <label htmlFor="table-search" className="sr-only">
                         Search
                     </label>
@@ -111,7 +111,7 @@ const Careers = () => {
                         <input
                             type="text"
                             id="table-search"
-                            className="w-[300px] pl-10 p-2 block py-3 px-4 text-sm font-normal bg-gray-100  text-gray-900  border border-gray-200  outline-none "
+                            className="w-full sm:w-[300px] pl-10 p-2 block py-3 px-4 text-sm font-normal bg-gray-100  text-gray-900  border border-gray-200  outline-none "
                             placeholder="Search job..."
                         />
                     </div>
@@ -123,7 +123,7 @@ const Careers = () => {
                             <select
                                 name="HeadlineAct"
                                 id="HeadlineAct"
-                                className="w-[300px] pl-10 p-2 block py-3 px-4 text-sm font-normal bg-gray-100  text-gray-900  border border-gray-200  outline-none "
+                                className="w-full sm:w-[300px] pl-10 p-2 block py-3 px-4 text-sm font-normal bg-gray-100  text-gray-900  border border-gray-200  outline-none "
                             >
                                 <option value="">All Location</option>
                                 <option value="JM">Remote</option>
