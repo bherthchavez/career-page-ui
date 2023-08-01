@@ -23,7 +23,7 @@ const Accordion = ({
     return (
         <>
 
-            <div className="group flex flex-col relative focus:outline-none focus:ring cursor-pointer ">
+            <div className="group flex flex-col relative focus:outline-none focus:ring cursor-pointer text-xs sm:text-base">
                 <span
                     className={`${show ? 'bg-[#DEF7FF]' : 'bg-[#FFE3F4]'} absolute inset-0 translate-x-1.5 translate-y-1.5  transition-transform`}
                 ></span>
@@ -37,7 +37,7 @@ const Accordion = ({
                         <div
 
                         >
-                            <p className={`text-lg ${show && 'text-[#A1005F]'}`}>
+                            <p className={`text-sm sm:text-lg ${show && 'text-[#A1005F]'}`}>
                                 {position}
                             </p>
                             <p className='font-semibold text-gray-600'>
