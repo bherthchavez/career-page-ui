@@ -86,12 +86,12 @@ const Careers = () => {
                             <span className='text-xs'>Upload Resume</span>
                             <span className="sr-only">Choose profile photo</span>
                             <input type="file"
-                                className="block w-full  text-gray-500
+                                className="block w-full  text-gray-500 file:cursor-pointer
                                 file:mr-4 file:py-2 file:px-4
                                 file:rounded-md file:border-0
                                 file: file:font-semibold
-                                file:bg-blue-500 file:text-white
-                                hover:file:bg-blue-600
+                                file:bg-gray-400 file:text-white
+                                hover:file:bg-gray-500
                                 "/>
                             <span className='text-[10px] text-gray-400'>DOC, DOCX, PDF (2 MB)</span>
                         </label>
