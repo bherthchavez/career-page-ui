@@ -17,7 +17,7 @@ const Header = () => {
                 <div className='flex justify-between'>
                     <img className='h-[30px] sm:h-[60px]' src={AxiomLogo} alt="Axiom Logo" />
 
-                    <div className='hidden sm:flex gap-10 justify-between  font-thin text-sm text-gray-700'>
+                    <div className='hidden sm:flex gap-10 justify-between font-thin text-sm text-gray-700 p-2'>
                         <div className='flex gap-2 items-center'>
                             <img className='' src={HeadPhone} alt="HeadPhone" />
                             <div className='flex flex-col justify-center '>
@@ -32,8 +32,8 @@ const Header = () => {
                                 <p>order@axiomprint.com</p>
                             </div>
                         </div>
-                        <div className='flex gap-2 border-l-2 border-gray-500 p-2'>
-                            <img className='pl-3 ' src={Users} alt="Users" />
+                        <div className='flex gap-2 items-center border-l-2 border-gray-300'>
+                            <img className='ml-5 ' src={Users} alt="Users" />
                             <div className='flex flex-col justify-center '>
                                 <p className='font-semibold text-gray-800'>Sign In</p>
                                 <p>My Account</p>
