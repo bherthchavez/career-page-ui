@@ -13,11 +13,11 @@ const Header = () => {
     };
     return (
         <>
-            <div className={`${nav && 'shadow-md sm:shadow-none'} bg-white z-10 fixed w-screen  items-center px-5 sm:px-60 py-2 sm:py-5`}>
+            <div className={`${nav && 'shadow-md sm:shadow-none'} bg-white z-10 fixed w-screen items-center px-5  md:px-30 lg:px-40 xl:px-60   py-2 sm:py-5`}>
                 <div className='flex justify-between'>
                     <img className='h-[30px] sm:h-[60px]' src={AxiomLogo} alt="Axiom Logo" />
 
-                    <div className='hidden sm:flex gap-10 justify-between font-thin text-sm text-gray-700 p-2'>
+                    <div className='hidden md:flex gap-10 justify-between font-thin text-sm text-gray-700 p-2'>
                         <div className='flex gap-2 items-center'>
                             <img className='' src={HeadPhone} alt="HeadPhone" />
                             <div className='flex flex-col justify-center '>

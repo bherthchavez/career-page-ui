@@ -3,7 +3,7 @@ import Greater from '../assets/Greater.png'
 const Head = () => {
     return (
         <>
-            <div className='px-5 sm:px-60 pt-20 sm:pt-[100px]'>
+            <div className='px-5 md:px-30 lg:px-40 xl:px-60 pt-20 sm:pt-[100px]'>
                 <div className='flex justify-between items-center gap-2'    >
                     <div className='text-2xl w-[600px]'>
                         <button className='px-4 py-2 mb-4 rounded-full border-2 border-[#9A0059] text-[#9A0059] font-bold text-xs sm:text-sm'>

@@ -99,7 +99,7 @@ const Careers = () => {
                 </div>
             </Modal>
 
-            <div className="px-5 sm:px-60 mb-20 flex flex-col gap-5">
+            <div className="px-5 md:px-30 lg:px-40 xl:px-60 mb-20 flex flex-col gap-5">
                 <div className="flex flex-col sm:flex-row pt-5 sm:pt-0 gap-4">
                     <label htmlFor="table-search" className="sr-only">
                         Search
