@@ -2,6 +2,7 @@
 import Header from "./components/Header"
 import Head from "./components/Head"
 import Careers from "./components/Careers"
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Head />
       <Careers />
+      <Analytics />
     </>
   )
 }
